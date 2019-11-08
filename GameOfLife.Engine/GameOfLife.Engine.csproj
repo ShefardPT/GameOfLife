@@ -9,4 +9,16 @@
     <ProjectReference Include="..\GameOfLife.Utilities\GameOfLife.Utilities.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="coes">
+      <HintPath>..\..\ConsoleOutputEngine\ConsoleOutoutEngine.Startup\bin\Debug\netcoreapp3.0\coes.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsoleOutputEngine">
+      <HintPath>..\..\..\..\Publish\COE\ConsoleOutputEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsoleOutputEngine.Core">
+      <HintPath>..\..\..\..\Publish\COE\ConsoleOutputEngine.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
