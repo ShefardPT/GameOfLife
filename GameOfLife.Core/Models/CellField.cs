@@ -96,8 +96,6 @@ namespace GameOfLife.Core.Models
 
         public IEnumerable<Cell> GetNeighbours(Cell cell)
         {
-            var result = new List<Cell>();
-
             for (int j = cell.PosY - 1; j <= cell.PosY + 1; j++)
             {
                 for (int i = cell.PosX - 1; i <= cell.PosX + 1; i++)
@@ -106,13 +104,9 @@ namespace GameOfLife.Core.Models
                         !IsIndexInRange(i, j))
                         continue;
 
-                    var neighbour = this[i, j];
-
-                    result.Add(neighbour);
+                    yield return this[i, j];                    
                 }
             }
-
-            return result;
         }
 
         private bool IsIndexInRange(int x, int y)
