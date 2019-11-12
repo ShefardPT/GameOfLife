@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{B0971FE1-63BE-4E7F-B8A5-CDA25C568889}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.Engine", "GameOfLife.Engine\GameOfLife.Engine.csproj", "{5FCEEC2C-97A8-4EFE-955C-BFDAEEE3E0F2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.Tests", "GameOfLife.Tests\GameOfLife.Tests.csproj", "{E63D9005-35E2-4D84-B8E1-938921409908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Utilities", "GameOfLife.Utilities\GameOfLife.Utilities.csproj", "{E800AEF8-B554-41B1-8879-2EAA1058D318}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.Utilities", "GameOfLife.Utilities\GameOfLife.Utilities.csproj", "{E800AEF8-B554-41B1-8879-2EAA1058D318}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife.Core", "GameOfLife.Core\GameOfLife.Core.csproj", "{05F5290B-8926-46C5-85D9-3F8CB1AB2861}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife.Core", "GameOfLife.Core\GameOfLife.Core.csproj", "{05F5290B-8926-46C5-85D9-3F8CB1AB2861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{448F8B81-66D3-4161-9569-928E15CD03DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B0971FE1-63BE-4E7F-B8A5-CDA25C568889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0971FE1-63BE-4E7F-B8A5-CDA25C568889}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0971FE1-63BE-4E7F-B8A5-CDA25C568889}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0971FE1-63BE-4E7F-B8A5-CDA25C568889}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5FCEEC2C-97A8-4EFE-955C-BFDAEEE3E0F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FCEEC2C-97A8-4EFE-955C-BFDAEEE3E0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FCEEC2C-97A8-4EFE-955C-BFDAEEE3E0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{05F5290B-8926-46C5-85D9-3F8CB1AB2861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F5290B-8926-46C5-85D9-3F8CB1AB2861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05F5290B-8926-46C5-85D9-3F8CB1AB2861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448F8B81-66D3-4161-9569-928E15CD03DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448F8B81-66D3-4161-9569-928E15CD03DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448F8B81-66D3-4161-9569-928E15CD03DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448F8B81-66D3-4161-9569-928E15CD03DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

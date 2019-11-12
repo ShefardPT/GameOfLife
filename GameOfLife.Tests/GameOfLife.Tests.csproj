@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GameOfLife\GameOfLife.csproj" />
+    <ProjectReference Include="..\GameOfLife.Engine\GameOfLife.Engine.csproj" />
   </ItemGroup>
 
 </Project>
