@@ -7,11 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow">
     <Grid HorizontalAlignment="Center"
-          VerticalAlignment="Center"
-          MaxHeight="80"
-          MinHeight="80"
-          MaxWidth="215"
-          MinWidth="215">
+          VerticalAlignment="Center">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>

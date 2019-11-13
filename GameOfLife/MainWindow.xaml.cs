@@ -25,6 +25,15 @@ namespace GameOfLife
         public MainWindow()
         {
             InitializeComponent();
+
+            SizeToContent = SizeToContent.WidthAndHeight;
+            Loaded += MainWindow_Loaded;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.MinWidth = this.ActualWidth;
+            this.MinHeight = this.ActualHeight;
         }
 
         private void BtnStartPlay_OnClick(object sender, RoutedEventArgs e)
