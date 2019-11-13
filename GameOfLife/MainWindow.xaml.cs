@@ -34,7 +34,12 @@ namespace GameOfLife
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            ((TextBox) sender).Text.SanitizeStringToNumeral();
+            if (e.Changes.Any(c => c.AddedLength > 0))
+            {
+                var textBox = ((TextBox)sender);
+
+                textBox.Text = textBox.Text.SanitizeStringToNumeral();
+            }
         }
     }
 }
